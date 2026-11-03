@@ -1,0 +1,258 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "knowledge-work",
+      "repository": "https://github.com/anthropics/knowledge-work-plugins",
+      "revision": "33d3dea41a341b341d4f5da2e8801ae0c89be2b8",
+      "license": "Apache-2.0",
+      "license_path": "upstream/knowledge-work/LICENSE",
+      "license_sha256": "a6946284993aeec75c7d75906064b66210c46051e562077efb30eb6dcfe72e26",
+      "reviewer": "Codex /root/vendor_methods (static source and behavioral review; domain/host acceptance remains separate)",
+      "reviewed_on": "2026-10-25",
+      "files": [
+        {
+          "path": "upstream/knowledge-work/LICENSE",
+          "sha256": "a6946284993aeec75c7d75906064b66210c46051e562077efb30eb6dcfe72e26",
+          "purpose": "Unmodified applicable upstream license and attribution notice"
+        },
+        {
+          "path": "upstream/knowledge-work/data/CONNECTORS.md",
+          "sha256": "79de0e9613ef7870e773b6dcdcb7d50f4bff2c0574c14ab5e0aeb29014dcec7b",
+          "purpose": "Inert glossary closing a selected method relative link; connector configuration is excluded and GU Core mapping controls access"
+        },
+        {
+          "path": "upstream/knowledge-work/data/LICENSE",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "purpose": "Unmodified applicable upstream license and attribution notice"
+        },
+        {
+          "path": "upstream/knowledge-work/data/skills/data-visualization/SKILL.md",
+          "sha256": "5811e8b3547cda6bc8af118aaf0d7589e8861cdc9facce6372dc78aea99ab87d",
+          "purpose": "Chart selection, accuracy, accessibility and presentation methods"
+        },
+        {
+          "path": "upstream/knowledge-work/data/skills/validate-data/SKILL.md",
+          "sha256": "1e424822043480375b80aef9416227b1c8083af749ca536568716265f79ca54b",
+          "purpose": "Analysis QA, population, denominator, timing and bias validation"
+        },
+        {
+          "path": "upstream/knowledge-work/finance/CONNECTORS.md",
+          "sha256": "af6f4e93e4af385fef0946f685216ba57104f785f35b8b596ea624808213624b",
+          "purpose": "Inert glossary closing a selected method relative link; connector configuration is excluded and GU Core mapping controls access"
+        },
+        {
+          "path": "upstream/knowledge-work/finance/LICENSE",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "purpose": "Unmodified applicable upstream license and attribution notice"
+        },
+        {
+          "path": "upstream/knowledge-work/finance/skills/financial-statements/SKILL.md",
+          "sha256": "1a9ba1cc85495eef32fa250b8a4c05e4854430af574a290b855f919dbb557dfc",
+          "purpose": "Financial statement and management reporting structure"
+        },
+        {
+          "path": "upstream/knowledge-work/finance/skills/reconciliation/SKILL.md",
+          "sha256": "aa17e90539f4d4d84130c910c7f527236bfaa71977c4c03493c8e8e515ddeea6",
+          "purpose": "Balance, bank, subledger and intercompany reconciliation methodology"
+        },
+        {
+          "path": "upstream/knowledge-work/finance/skills/variance-analysis/SKILL.md",
+          "sha256": "467db7de3fb118550d013409254e2d4a9f87385a661e154655bf3431919b0ba1",
+          "purpose": "Variance driver decomposition and reconciled reporting bridges"
+        },
+        {
+          "path": "upstream/knowledge-work/marketing/CONNECTORS.md",
+          "sha256": "e85d04dde99b220ba438cf1345212e7414da536fb7d781d83a4ad57270586630",
+          "purpose": "Inert glossary closing a selected method relative link; connector configuration is excluded and GU Core mapping controls access"
+        },
+        {
+          "path": "upstream/knowledge-work/marketing/LICENSE",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "purpose": "Unmodified applicable upstream license and attribution notice"
+        },
+        {
+          "path": "upstream/knowledge-work/marketing/skills/performance-report/SKILL.md",
+          "sha256": "997397e23ba5124cdcbbf17e4be9f5cb36f2a2145b5648e02b2852c91c3cc140",
+          "purpose": "Marketing reporting, metric definitions, attribution caveats and recommendations"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-legal",
+      "repository": "https://github.com/anthropics/claude-for-legal",
+      "revision": "4a6c651889c97cc9140580363c73e0eb17379c2b",
+      "license": "Apache-2.0",
+      "license_path": "upstream/anthropic-legal/LICENSE",
+      "license_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "reviewer": "Codex /root/vendor_methods (static source and behavioral review; domain/host acceptance remains separate)",
+      "reviewed_on": "2026-10-25",
+      "files": [
+        {
+          "path": "upstream/anthropic-legal/LICENSE",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "purpose": "Unmodified applicable upstream license and attribution notice"
+        },
+        {
+          "path": "upstream/anthropic-legal/commercial-legal/CLAUDE.md",
+          "sha256": "892a22dd7bba45cbe2aad316414d022b28e0b22a5cd35cbeb96d69aaab5b596d",
+          "purpose": "Inert original commercial playbook schema and shared methodology; upstream configuration/bootstrap/policy instructions are not activated"
+        },
+        {
+          "path": "upstream/anthropic-legal/commercial-legal/skills/escalation-flagger/SKILL.md",
+          "sha256": "34e626fde3c6dd451ddfffd8e8f75d10f5f61a0f2175a04c4a935b41005a843b",
+          "purpose": "Contract risk characterization and human decision request drafting"
+        },
+        {
+          "path": "upstream/anthropic-legal/commercial-legal/skills/nda-review/SKILL.md",
+          "sha256": "9e5f5b79311885bd1e2a8a146a344f1700e49e918a789173e076ad59f7c8b29c",
+          "purpose": "NDA categories, playbook triage, minimal redlines and evidence"
+        },
+        {
+          "path": "upstream/anthropic-legal/commercial-legal/skills/renewal-tracker/references/renewal-register.yaml",
+          "sha256": "09fe99c51a958d2df242ee6e7c9aadf039eb0f78286742ed4e1472f1596d1a2f",
+          "purpose": "Original renewal-field schema referenced by selected SaaS review; no tracker or scheduler activation"
+        },
+        {
+          "path": "upstream/anthropic-legal/commercial-legal/skills/review/SKILL.md",
+          "sha256": "fe06bf41a1945da79c4c2749f7aba2415f956a17ae91faa64c01fb6e3a1fd711",
+          "purpose": "Document-structure routing for commercial legal reviews"
+        },
+        {
+          "path": "upstream/anthropic-legal/commercial-legal/skills/saas-msa-review/SKILL.md",
+          "sha256": "f1663b3621c7b18040d793500dc7b3d65bfcee69d52415e89c61473950dd7fdb",
+          "purpose": "Subscription and SaaS commercial risk review overlay"
+        },
+        {
+          "path": "upstream/anthropic-legal/commercial-legal/skills/vendor-agreement-review/SKILL.md",
+          "sha256": "d26de70c87fe7061fd4832ced5bce2c90ea078abe3f9d3a9982ed09a48c0d0e4",
+          "purpose": "Commercial contract clause comparison, risk, redlines and escalation"
+        },
+        {
+          "path": "upstream/anthropic-legal/references/dashboard-template.md",
+          "sha256": "d5f939998070b91ef8c4f039233ad16349801c058ccdb190e824b15c2d0d5864",
+          "purpose": "Inert original dashboard presentation and untrusted-data escaping reference used by the commercial playbook"
+        }
+      ]
+    },
+    {
+      "id": "financial-services",
+      "repository": "https://github.com/anthropics/financial-services",
+      "revision": "574ed3624aebd0418c7e96cd101262f30210ab26",
+      "license": "Apache-2.0",
+      "license_path": "upstream/financial-services/LICENSE",
+      "license_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "reviewer": "Codex /root/vendor_methods (static source and behavioral review; domain/host acceptance remains separate)",
+      "reviewed_on": "2026-10-25",
+      "files": [
+        {
+          "path": "upstream/financial-services/LICENSE",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "purpose": "Unmodified applicable upstream license and attribution notice"
+        },
+        {
+          "path": "upstream/financial-services/plugins/vertical-plugins/financial-analysis/skills/3-statement-model/SKILL.md",
+          "sha256": "bc2aeb423a3cc9e6ab973dcc4e3c6682427c751e20d8b3a0eec057eab67b1e83",
+          "purpose": "Integrated financial-model structure, scenario logic and statement tie-outs"
+        },
+        {
+          "path": "upstream/financial-services/plugins/vertical-plugins/financial-analysis/skills/3-statement-model/references/formatting.md",
+          "sha256": "7e1c5ca7dd566f6821a6094efcbe48913d984766d7278178111ec4c67aca8778",
+          "purpose": "Original methodological dependency of selected 3-statement-model reference; apply through GU adapter review"
+        },
+        {
+          "path": "upstream/financial-services/plugins/vertical-plugins/financial-analysis/skills/3-statement-model/references/formulas.md",
+          "sha256": "5761041366248bba14782f72082b9396c7e47291491999ea85be1c9c2875df5e",
+          "purpose": "Original methodological dependency of selected 3-statement-model reference; apply through GU adapter review"
+        },
+        {
+          "path": "upstream/financial-services/plugins/vertical-plugins/financial-analysis/skills/3-statement-model/references/sec-filings.md",
+          "sha256": "9765c2f789b8d87baeca89b7f3a5ddc68d6068c06b39b4445224197d6e444e93",
+          "purpose": "Original methodological dependency of selected 3-statement-model reference; apply through GU adapter review"
+        },
+        {
+          "path": "upstream/financial-services/plugins/vertical-plugins/financial-analysis/skills/audit-xls/SKILL.md",
+          "sha256": "df771f6b90fc3b3d4996d5e8682ab00d4fa6f55beef308ea764b0f7a2a1c38e2",
+          "purpose": "Workbook formula, model integrity and review findings methodology"
+        },
+        {
+          "path": "upstream/financial-services/plugins/vertical-plugins/financial-analysis/skills/dcf-model/SKILL.md",
+          "sha256": "2bb3ed672ab2fa76f8820ee919b158a67dc6df10e7052eeb661599140a9a2494",
+          "purpose": "DCF structure, scenario and sensitivity methods; flawed examples require adapter corrections"
+        },
+        {
+          "path": "upstream/financial-services/plugins/vertical-plugins/financial-analysis/skills/dcf-model/TROUBLESHOOTING.md",
+          "sha256": "6e605b455032973465f685535251a7d2d889a2dad9b05ba8d6dfc01f801b28d0",
+          "purpose": "Original methodological dependency of selected skills reference; apply through GU adapter review"
+        }
+      ]
+    },
+    {
+      "id": "corey-marketing",
+      "repository": "https://github.com/coreyhaines31/marketingskills",
+      "revision": "e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b",
+      "license": "MIT",
+      "license_path": "upstream/corey-marketing/LICENSE",
+      "license_sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+      "reviewer": "Codex /root/vendor_methods (static source and behavioral review; domain/host acceptance remains separate)",
+      "reviewed_on": "2026-10-25",
+      "files": [
+        {
+          "path": "upstream/corey-marketing/LICENSE",
+          "sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+          "purpose": "Unmodified applicable upstream license and attribution notice"
+        },
+        {
+          "path": "upstream/corey-marketing/skills/copy-editing/SKILL.md",
+          "sha256": "2a072606d9d5662509ea6ef62c65719487dcb68876acab9286bde4d1af5c030f",
+          "purpose": "Editing scope and quality-sweep method"
+        },
+        {
+          "path": "upstream/corey-marketing/skills/copy-editing/references/checklist.md",
+          "sha256": "4cf94c922286223681fc53721fcc65ae7299f1e36e797e7397d369d674580c60",
+          "purpose": "Original methodological dependency of selected copy-editing reference; apply through GU adapter review"
+        },
+        {
+          "path": "upstream/corey-marketing/skills/copy-editing/references/content-refresh.md",
+          "sha256": "ba73cdf278fe6b552eee27eb1452494f11f9d17ef67d720657e0982f76fb961b",
+          "purpose": "Original methodological dependency of selected copy-editing reference; apply through GU adapter review"
+        },
+        {
+          "path": "upstream/corey-marketing/skills/copy-editing/references/plain-english-alternatives.md",
+          "sha256": "df4f820d4c63ae8a517c64a243c101658352cd07d002355bf3c97de0a00f3775",
+          "purpose": "Original methodological dependency of selected copy-editing reference; apply through GU adapter review"
+        },
+        {
+          "path": "upstream/corey-marketing/skills/copywriting/SKILL.md",
+          "sha256": "13c580c2432a4499e9dfdcf5d553df7aa6589e90cf5bd869fb4fbde5caf9f567",
+          "purpose": "Evidence-backed positioning and copy drafting method"
+        },
+        {
+          "path": "upstream/corey-marketing/skills/copywriting/references/ai-tells.md",
+          "sha256": "b98c3a19b3a75c714d69e80a0076e4c07244b0e833c2ce81ff2631224fb7f7b2",
+          "purpose": "Original methodological dependency of selected copywriting reference; apply through GU adapter review"
+        },
+        {
+          "path": "upstream/corey-marketing/skills/copywriting/references/copy-frameworks.md",
+          "sha256": "352122944bf9e891ceb0e003adce41591d111e9d97057700626249919dfe430d",
+          "purpose": "Original methodological dependency of selected copywriting reference; apply through GU adapter review"
+        },
+        {
+          "path": "upstream/corey-marketing/skills/copywriting/references/natural-transitions.md",
+          "sha256": "9bd61b0de5be2c4de4ce130c68236b4f290b12737823827a458bb2b4c8584683",
+          "purpose": "Original methodological dependency of selected copywriting reference; apply through GU adapter review"
+        },
+        {
+          "path": "upstream/corey-marketing/skills/product-marketing/SKILL.md",
+          "sha256": "19ece0fa75c72a5a8b6e90db80f506586f54cc93bae6bffbb1bd2ef4ae7d603c",
+          "purpose": "Audience, positioning, evidence and brand-voice context method"
+        },
+        {
+          "path": "upstream/corey-marketing/skills/product-marketing/references/brand-voice.md",
+          "sha256": "932f3453db2761f03050792e39800150495dab449750b40913a4314ea97e7672",
+          "purpose": "Original methodological dependency of selected product-marketing reference; apply through GU adapter review"
+        }
+      ]
+    }
+  ]
+}
