@@ -1,5 +1,19 @@
 # Plugin release notes
 
+## 0.1.8
+
+- **GU-ARTIFACTS / GU-EVIDENCE:** distinguish embedded file bytes from the
+  `urn:gu:file-download` JSON descriptor. Download the original through the exact
+  public stage Core GET route with its supplied opaque ticket; keep credentials
+  out of URLs, files and output, refuse redirects, and verify the complete size
+  and SHA-256 before dependent use. Resume only against the same source pin.
+- Existing roles, access checks, folder permissions, one-time review, upload
+  session PUT/recovery, directions, adapters and upstream methods are unchanged.
+
+This local stage candidate does not establish deployment, publication or actual
+Claude web/desktop/mobile acceptance. Use the descriptor only when compatible
+Core discovery actually provides it.
+
 ## 0.1.7
 
 - **Licensing:** GU-owned package files are released under Apache-2.0, with the
